@@ -27,7 +27,7 @@ joined info-selfie
 **`)
 }).catch(console.error)
 
-});
+})
  
 client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
@@ -54,5 +54,4 @@ joined info-selfie
 }).catch(console.error)
 })
 
-});
 client.login(process.env.BOT_TOKEN);
