@@ -1686,7 +1686,7 @@ process.on("message", (message) => {
 });
 
 module.exports = DBM;
-});
+
 
 
 client.login(process.env.BOT_TOKEN);
