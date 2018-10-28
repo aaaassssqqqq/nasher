@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 client.on('ready', () => {
-  client.user.setGame(`طفران / طفشان`);
+  client.user.setGame(`**مهما كنت صامت فأنا لا اجرح**`);
   console.log('---------------');
   console.log(' Bot Is Online')
   console.log('---------------')
